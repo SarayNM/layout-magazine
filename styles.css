@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+body {
+    background-color: beige;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+}
+
+header {
+    padding: 6rem 6rem 1rem;
+}
+
+ header nav {
+     display: flex;
+     justify-content: flex-start;
+     gap: 2%;
+     
+ }
+
+ header nav .language1, .language2 {
+
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 1rem;
+    font-weight: bold;
+ }
+
+    .language1:hover, .language2:hover{
+background-color: black;
+color: white;
+    }
+
+  /*   height: 2.5rem;
+    width: 2.5rem;
+    border: 1px solid black;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    padding: 1rem; */
+    
+}
+
+main section [class] {
+    width: 50%;
+}
+
+ main {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+}
+
+
+
+
+.title {
+    display: flex;
+    font-size: 5rem;
+    flex-direction: column;
+
+}
+
+.title h1 {
+    font-size: 10rem;
+    padding: 4rem 4rem 0 1rem;
+}
+
+
+
+p {
+    font-size: 3rem;
+    padding: 1rem;
+    
+}
+
+
+img {
+
+width: 40%;
+margin-left: 20%;
+}
+ 
+.reserve {
+    display: flex;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    align-items: center;
+    
+}
+
+.reserve a {
+    
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 3rem;
+    border-radius: 50%; 
+ 
+}
+
+
+.foot {
+    display:block;
+    justify-content: baseline;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 3rem 0 3rem;
+    padding: 3rem;
+    
+    
+}
+
+.foot a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 3rem;
+    border-radius: 50%;
+    
+} 
